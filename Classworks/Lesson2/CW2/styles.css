@@ -1,0 +1,21 @@
+body{
+    background-color: #FFE2C4;
+    height: 100hv;
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.square{
+    background-color: darkred;
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+}
+.square:hover{
+    background-color: darkgrey;
+    border-radius: 50%;
+    transition: 500ms;
+}
