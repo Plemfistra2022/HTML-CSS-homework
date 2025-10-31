@@ -1,0 +1,30 @@
+body{
+    background-color: lightgray;
+}
+h1{
+    text-align: center;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+img{
+    width: 100px;
+}
+.fridge{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    width: 150px;
+    height: 150px;
+    border: 2px solid darkgray;
+    border-radius: 30px;
+    margin: 30px 20px;
+    padding: 10px;
+}
+p{
+    font-weight: bold;
+}
