@@ -1,0 +1,22 @@
+body{
+    background-color: #4F6F51;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.list{
+    background-color: #D1E3C9;
+    width: 200px;
+    height: 200px;
+    padding:10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.list p{
+    line-height: 1.5;
+}
+.list:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
