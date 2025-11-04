@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    padding: 0 50px;
+    font-family: "Roboto", sans-serif;
+}
+img{
+    width: 40px;
+}
+h3{
+    font-size: 3rem;
+}
+#top-section{
+    background-color: aquamarine;
+}
+#center-section{
+    background-color: burlywood;
+}
+#bottom-section{
+    background-color: dodgerblue;
+}
