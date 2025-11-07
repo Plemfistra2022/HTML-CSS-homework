@@ -1,0 +1,41 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.round{
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
+    background-color: #b360d5;
+    margin: 200px auto;
+}
+.top{
+    animation: top 2s infinite linear alternate;
+}
+.bottom{
+    animation: bottom 5s infinite linear alternate;
+}
+
+@keyframes top {
+    0% {
+        transform: scale(2)
+    }
+    50%{
+        transform: skew(20deg);
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+@keyframes bottom {
+    0% {
+        transform: scale(3)
+    }
+    50%{
+        transform: translateY(-100px)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
