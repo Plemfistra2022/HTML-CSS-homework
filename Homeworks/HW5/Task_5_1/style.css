@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.w-1000{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 200px auto;
+}
+.one{
+    width: 100px;
+    height: 100px;
+    background: coral;
+    animation: ani_one 10s linear infinite;
+}
+.two{
+    width: 100px;
+    height: 100px;
+    background: royalblue;
+    animation: ani_two 10s ease infinite;
+}
+.three{
+    width: 100px;
+    height: 100px;
+    background: yellowgreen;
+    animation: ani_three 10s ease-in infinite;
+}
+@keyframes ani_one {
+    0%{
+        transform: rotate(180deg);
+    }
+    20%{
+        transform: scale(2);
+        border-radius: 50%;
+        background: royalblue;
+    }
+    40%{
+        transform: scale(1);
+    }
+    60%{
+        border-radius: 0;
+        transform: rotate(-180deg);
+        background: yellowgreen;
+    }
+    80%{
+        border-radius: 50%;
+        transform: scale(2);
+    }
+    100%{
+        border-radius: 0;
+        transform: scale(1);
+        background: coral;
+    }
+
+}
+@keyframes ani_two {
+    0%{
+        transform: rotate(180deg);
+    }
+    20%{
+        transform: scale(2);
+        border-radius: 50%;
+        background: yellowgreen;
+    }
+    40%{
+        transform: scale(1);
+    }
+    60%{
+        border-radius: 0;
+        transform: rotate(-180deg);
+        background: coral;
+    }
+    80%{
+        border-radius: 50%;
+        transform: scale(2);
+    }
+    100%{
+        border-radius: 0;
+        transform: scale(1);
+        background: royalblue;
+    }
+
+}
+@keyframes ani_three {
+    0%{
+        transform: rotate(180deg);
+    }
+    20%{
+        transform: scale(2);
+        border-radius: 50%;
+        background: coral;
+    }
+    40%{
+        transform: scale(1);
+    }
+    60%{
+        border-radius: 0;
+        transform: rotate(-180deg);
+        background: royalblue;
+    }
+    80%{
+        border-radius: 50%;
+        transform: scale(2);
+    }
+    100%{
+        border-radius: 0;
+        transform: scale(1);
+        background: greenyellow;
+    }
+
+}
