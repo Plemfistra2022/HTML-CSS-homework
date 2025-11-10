@@ -29,8 +29,8 @@ div {
 }
 
 @keyframes colorChange {
-    0% { background-color: #5454D4; }
-    50% { background-color: #206ABB; }
-    100% { background-color: #5454D4; }
+    0% { background: #5454D4; }
+    50% { background: #206ABB; }
+    100% { background: #5454D4; }
 }
 
