@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    margin:50px auto 0 auto;
+}
+.one{
+    width: 100px;
+    height: 100px;
+    background: #9F3919;
+    animation: ani_one 2s linear infinite alternate;
+}
+.two{
+    width: 100px;
+    height: 100px;
+    background: #9F3919;
+    animation: ani_two 2s linear infinite alternate;
+}
+.three{
+    width: 100px;
+    height: 100px;
+    background: #9F3919;
+    animation: ani_three 2s linear infinite alternate;
+}
+.four{
+    width: 100px;
+    height: 100px;
+    background: #9F3919;
+    animation: ani_four 2s linear infinite alternate;
+}
+.five{
+    width: 100px;
+    height: 100px;
+    background: #9F3919;
+    animation: ani_five 2s linear infinite alternate;
+}
+@keyframes ani_one {
+    0%{
+        transform: rotate(-180deg);
+    }
+    50%{
+        border-radius: 50%;
+    }
+    100%{
+        transform: scale(0.1);
+    }
+}
+@keyframes ani_two {
+    0%{
+        transform: rotate(180deg);
+    }
+    50%{
+        border-radius: 50%;
+        translate: 0 200px;
+    }
+    100%{
+        transform: scale(0.1);
+    }
+}
+@keyframes ani_three {
+    0%{
+        transform: rotate(-180deg);
+    }
+    50%{
+        border-radius: 50%;
+        translate: 0 -200px;
+    }
+    100%{
+        transform: scale(0.1);
+    }
+}
+@keyframes ani_four {
+    0%{
+        transform: rotate(180deg);
+    }
+    50%{
+        border-radius: 50%;
+        translate: 0 200px;
+    }
+    100%{
+        transform: scale(0.1);
+    }
+}
+@keyframes ani_five {
+0%{
+    transform: rotate(-180deg);
+}
+50%{
+    border-radius: 50%;
+}
+100%{
+    transform: scale(0.1);
+}
+}
