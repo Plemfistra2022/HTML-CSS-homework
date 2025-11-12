@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
+div.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+div.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 380px;
+    height: 410px;
+    border: 1px solid lightgray;
+}
+div.form-container img.inst{
+    width: 175px;
+    height: 50px;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+div.form-container input{
+    display: block;
+    width: 280px;
+    height: 38px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    background: #f3f3f3;
+}
+div.form-container input[type="submit"]{
+    border: none;
+    border-radius: 10px;
+    background-color: #68B5FA;
+    color: white;
+    margin: 20px auto 20px auto;
+    font-weight: 600;
+    font-size: 18px;
+}
+div.form-container p{
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+div.form-container div.fb img.fb{
+    width: 18px;
+    height: 18px;
+    background-size: cover;
+}
+div.form-container div.fb a{
+    color: #475993;
+    font-size: 18px;
+    font-weight: 600;
+}
+div.form-container a{
+    color: #193693;
+    margin-top: 20px;
+}
+
+div.new-account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 65px;
+    border: 1px solid lightgray;
+    margin-top: 10px;
+}
+div.new-account p a{
+    color: #0095F6;
+    font-weight: 600;
+}
