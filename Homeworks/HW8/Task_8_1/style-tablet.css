@@ -1,0 +1,9 @@
+@media screen and (min-width: 481px) and (max-width:1279px){
+    .cards{
+        width: 720px;
+        align-items: flex-start;
+    }
+    .card{
+        width: 218px;
+    }
+}
