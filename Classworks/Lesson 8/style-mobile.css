@@ -1,0 +1,41 @@
+@media screen and (max-width:480px){
+    .circle-left, .circle-right {
+        display: none;
+    }
+    .container{
+        padding: 0 16px;
+    }
+    h1{
+        font-weight: 700;
+        font-size: 110px;
+        line-height: 100%;
+        letter-spacing: -0.5px;
+        text-align: center;
+    }
+    h3{
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 120%;
+        text-align: center;
+    }
+
+    p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+        text-align: center;
+        vertical-align: middle;
+        width: 100%;
+    }
+    .buttons{
+        flex-direction: column;
+        padding-top: 24px;
+        width: 100%;
+    }
+    button:nth-child(1){
+        width: 100%;
+    }
+    button:nth-child(2){
+        width: 100%;
+    }
+}
